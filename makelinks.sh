@@ -1,9 +1,9 @@
 #!/bin/sh
 
-ln -sfn ~/bash/bash_profile ~/.bash_profile
-ln -sfn ~/bash/bashrc ~/.bashrc
+ln -sfn -b ~/bash/bash_profile ~/.bash_profile
+ln -sfn -b ~/bash/bashrc ~/.bashrc
 
-ln -sfn ~/gitconfig ~/.gitconfig
+ln -sfn -b ~/gitconfig ~/.gitconfig
 
-ln -sfn ~/dotfiles/vim/vimrc ~/.vimrc
+ln -sfn -b ~/dotfiles/vim/vimrc ~/.vimrc
 
